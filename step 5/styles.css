@@ -1,0 +1,50 @@
+/* Import fonts */
+@import url("https://use.typekit.net/mlc3rxe.css");
+
+/* Remove margin and padding from whole document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles for the body element */
+#step5-body{
+    position: relative;
+    font-family: josefin-sans, sans-serif;
+    display: flex;
+    margin: 5% 20% 5% 20%;
+   justify-content: space-between;
+}
+
+#step5-body p{
+font-size: 1vw;
+} 
+
+#step5-body h2{
+    font-weight:400;
+    color: #26245E;    
+}
+
+section{ 
+    width: 50%;
+}
+
+.betalingsoplysninger{
+    display: flex;
+    justify-content: space-between; 
+    border:1px solid #6F6F6F ;
+    border-radius: 15px;
+    margin:1% 0% 1% 0%;
+    padding: 2%;
+    align-items: center;
+}
+
+.betalingsoplysninger input[type=text]{
+border:none;
+font-family: josefin-sans, sans-serif;
+font-weight: 1vw;
+color: #6F6F6F;
+
+
+}
+

@@ -1,0 +1,37 @@
+/* Import fonts */
+@import url("https://use.typekit.net/mlc3rxe.css");
+
+/* Remove margin and padding from whole document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles for the body element */
+body{
+    position: relative;
+    font-family: josefin-sans, sans-serif;
+    align-items: center;
+    text-align: center; 
+    margin: 5% 30% 5% 30%;
+}
+
+#step4-overskrift{
+    font-weight:400;
+    color: #26245E;
+    font-size: 2vw;
+    margin: 5% 0% 5% 0%;
+}
+
+
+.oplysninger input[type=text]{
+  border: 1px solid #6F6F6F;
+  border-radius: 15px;
+
+  padding: 2%;
+  margin:1% 0% 1% 0%;
+
+  font-size: 1vw;
+  font-family: josefin-sans, sans-serif;
+  color: #6F6F6F;
+}
