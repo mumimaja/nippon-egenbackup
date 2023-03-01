@@ -8,18 +8,17 @@
 }
 
 /* General styles for the body element */
-body{
-    position: relative;
+#step4-body{
     font-family: josefin-sans, sans-serif;
     align-items: center;
     text-align: center; 
     margin: 5% 30% 5% 30%;
 }
 
-#step4-overskrift{
+#step4-body h2{
     font-weight:400;
     color: #26245E;
-    font-size: 2vw;
+    font-size: 1.75vw;
     margin: 5% 0% 5% 0%;
 }
 
@@ -35,3 +34,21 @@ body{
   font-family: josefin-sans, sans-serif;
   color: #6F6F6F;
 }
+
+
+@media screen and (max-width:1024px){ 
+
+  #step4-body{ 
+      margin: 5% 10% 5% 10%;
+  
+  }
+  
+.oplysninger input[type=text]{
+      font-size: 3vw;
+  } 
+  
+  #step4-body h2{
+          font-size: 4vw;       
+  }
+  
+  } 

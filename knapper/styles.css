@@ -1,0 +1,49 @@
+/* Import fonts */
+@import url("https://use.typekit.net/mlc3rxe.css");
+
+/* Remove margin and padding from whole document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles for the body element */
+body{
+    font-family: josefin-sans, sans-serif;
+    margin: 5% 30% 5% 30%;
+}
+
+#knapper-section{ 
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.knap{ 
+    border-radius: 20px;
+    background-color:#FFECD4;
+    display: flex;
+    justify-content: space-between;
+    color:#26245E;
+    text-decoration: none;
+    width: 150px;
+    padding:1% 2% 1% 2%;
+    font-size:1vw;
+    align-items: center;
+}
+
+@media screen and (max-width: 1040px) {
+
+    body{
+        font-family: josefin-sans, sans-serif;
+        margin: 5% 10% 5% 10%;
+    }
+
+    .knap{
+    font-size: 3vw;
+    width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+}
